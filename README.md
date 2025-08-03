@@ -30,7 +30,7 @@ This site is built using **HTML**, **CSS**, and **JavaScript**, and showcases my
 ## 📷 Preview
 
 ![Portfolio Preview]
-<img width="1365" height="604" alt="portfolio image" src="https://github.com/user-attachments/assets/6cf772b1-1065-497a-8618-3cd291bb1cd3" />
+<img width="1360" height="604" alt="portfolio image" src="https://github.com/user-attachments/assets/be57f4e9-1c2a-453f-8f1f-57e8056421d0" />
 
 ---
 
