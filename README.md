@@ -41,6 +41,5 @@ This site is built using **HTML**, **CSS**, and **JavaScript**, and showcases my
    git clone https://github.com/Renugadevi29/Portfolio-website.git
 2. Open index.html in your browser to preview locally
 
-
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
