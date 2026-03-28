@@ -153,7 +153,7 @@ color:#ffcc99;
   padding:3rem 2rem;
 max-width:900px;
 margin:auto;
-column gap:2rem;
+column-gap:2rem;
 row-gap:2rem;
 padding-top:6rem;
 }
@@ -515,6 +515,25 @@ background-color:transparent;
   transition: transform 0.3s ease;
 }
 
+/* ===== Dark Mode Fix for Projects ===== */
+
+body.dark .project-card {
+  background-color: #1e1e1e; /* solid dark card */
+  border: 1px solid #333;
+}
+
+body.dark .project-info h3 {
+  color: #ffcc80; /* highlight title */
+}
+
+body.dark .project-info p {
+  color: #e0e0e0; /* readable text */
+}
+
+body.dark .project-link {
+  color: #7ab8ff;
+}
+
 .project-card:hover {
   transform: translateY(-5px);
 }
@@ -858,7 +877,7 @@ body.dark .contact a {
 }
 
 :root {
-  bg-gradient: linear-gradient(135deg,#f5e1ff,#e0f0ff;
+  --bg-gradient: linear-gradient(135deg,#f5e1ff,#e0f0ff);
   --primary-color: #D8A7B1;
   --accent-color: #e3bfa4;
   --text-color: #333333;
